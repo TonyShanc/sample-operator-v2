@@ -1,0 +1,7 @@
+apiVersion: sample.github.com/v1
+kind: At
+metadata:
+  name: at-sample6
+spec:
+  schedule: "2021-12-08T15:18:06Z"
+  command: sleep 10s

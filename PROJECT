@@ -1,0 +1,16 @@
+domain: github.com
+layout:
+- go.kubebuilder.io/v3
+projectName: sample-operator-v2
+repo: github.com/tonyshanc/sample-operator-v2
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: github.com
+  group: sample
+  kind: At
+  path: github.com/tonyshanc/sample-operator-v2/api/v1
+  version: v1
+version: "3"
