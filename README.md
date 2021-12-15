@@ -24,5 +24,5 @@ make manifests
 
 # create CR
 ```
-k apply -f config/samples/sample_v1_car.yaml -n sample
+k apply -f config/samples/sample_v1_at.yaml -n sample
 ```
